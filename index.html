@@ -1,78 +1,226 @@
-<!doctype html>
+<!DOCTYPE HTML>
+<!--
+	Prologue by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Shuli-liu.github.io by sliu0915</title>
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="javascripts/respond.js"></script>
-    <!--[if lt IE 9]>
-      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <!--[if lt IE 8]>
-    <link rel="stylesheet" href="stylesheets/ie.css">
-    <![endif]-->
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<head>
+		<title>Shuli's portfolio</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="Shuli's portfolio" />
+		<meta name="keywords" content="design, UX, research," />
+		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.scrolly.min.js"></script>
+		<script src="js/jquery.scrollzer.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-layers.min.js"></script>
+		<script src="js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-wide.css" />
+		</noscript>
+		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+	</head>
+	<body>
 
-  </head>
-  <body>
-      <div id="header">
-        <nav>
-          <li class="fork"><a href="https://github.com/sliu0915/shuli-liu.github.io">View On GitHub</a></li>
-          <li class="downloads"><a href="https://github.com/sliu0915/shuli-liu.github.io/zipball/master">ZIP</a></li>
-          <li class="downloads"><a href="https://github.com/sliu0915/shuli-liu.github.io/tarball/master">TAR</a></li>
-          <li class="title">DOWNLOADS</li>
-        </nav>
-      </div><!-- end header -->
+		<!-- Header -->
+			<div id="header" class="skel-layers-fixed">
 
-    <div class="wrapper">
+				<div class="top">
 
-      <section>
-        <div id="title">
-          <h1>Shuli-liu.github.io</h1>
-          <p>Shuli&#39;s awesome portfolio </p>
-          <hr>
-          <span class="credits left">Project maintained by <a href="https://github.com/sliu0915">sliu0915</a></span>
-          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
-        </div>
+					<!-- Logo -->
+						<div id="logo">
+							<span class="image avatar48"><img src="images/avartar.jpg" alt="" /></span>
+							<h1 id="title">Shuli Liu</h1>
+							<p>Researcher. Designer. Developer<sup>BETA</sup></p>
+						</div>
 
-        <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+					<!-- Nav -->
+						<nav id="nav">
+							<!--
+							
+								Prologue's nav expects links in one of two formats:
+								
+								1. Hash link (scrolls to a different section within the page)
+								
+								   <li><a href="#foobar" id="foobar-link" class="icon fa-whatever-icon-you-want skel-layers-ignoreHref"><span class="label">Foobar</span></a></li>
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
+								2. Standard link (sends the user to another page/site)
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
+								   <li><a href="http://foobar.tld" id="foobar-link" class="icon fa-whatever-icon-you-want"><span class="label">Foobar</span></a></li>
+							
+							-->
+							<ul>
+								<li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Intro</span></a></li>
+								<li><a href="#portfolio" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Portfolio</span></a></li>
+								<li><a href="#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">About Me</span></a></li>
+								<li><a href="#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Contact</span></a></li>
+							</ul>
+						</nav>
+						
+				</div>
+				
+				<div class="bottom">
 
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
+					<!-- Social Icons -->
+						<ul class="icons">
+							<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
+							<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
+							<li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
+						</ul>
+				
+				</div>
+			
+			</div>
 
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
+		<!-- Main -->
+			<div id="main">
 
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
+				<!-- Intro -->
+					<section id="top" class="one dark cover">
+						<div class="container">
 
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
+							<header>
+								<h2 class="alt">Hi! I'm <strong>Shuli Liu</strong> ,a user experience (UX) <strong>researcher</strong>, <strong>designer</strong> and <strong>developer</strong>. <br />I am on a mission to build beautiful things that make our lives easier and happier. 
+								</h2>
+								<p>Please feel free to reach me at <a href="mailto:shuli.lizzie.liu@gmail.com" target="_blank">shuli.lizzie.liu@gmail.com</a> if you think I can help solve your problem, or if you share the same mission with me!</p>
+							</header>
+							
+							<footer>
+								<a href="#portfolio" class="button scrolly">See my works.</a>
+							</footer>
 
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
+						</div>
+					</section>
+					
+				<!-- Portfolio -->
+					<section id="portfolio" class="two">
+						<div class="container">
+					
+							<header>
+								<h2>Portfolio</h2>
+							</header>
+							
+							<p>The footprints to perfection never end...</p>
+						
+							<div class="row">
+								<div class="12u">
+									<article class="item">
+										<a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
+										<header>
+											<h3>Ipsum Feugiat</h3>
+										</header>
+									</article>
+									<article class="item">
+										<a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
+										<header>
+											<h3>Rhoncus Semper</h3>
+										</header>
+									</article>
+								</div>
+                             <div class="row">
+								<div class="4u">
+									<article class="item">
+										<a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a>
+										<header>
+											<h3>Magna Nullam</h3>
+										</header>
+									</article>
+								</div>
+                             
+								<div class="4u">
+									<article class="item">
+										<a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a>
+										<header>
+											<h3>Dolor Penatibus</h3>
+										</header>
+									</article>
+								</div>
+                                <div class="4u">
+                                  <article class="item">
+                                      <a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a>
+                                      <header>
+                                          <h3>Dolor Penatibus</h3>
+                                      </header>
+                                  </article>
+                               </div>
+                            </div>
+                          </div>
+					    </div>
 
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
+					
+					</section>
 
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
+				<!-- About Me -->
+					<section id="about" class="three">
+						<div class="container">
 
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
+							<header>
+								<h2>About Me</h2>
+							</header>
 
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
+							<a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
+							
+							<p>Tincidunt eu elit diam magnis pretium accumsan etiam id urna. Ridiculus 
+							ultricies curae quis et rhoncus velit. Lobortis elementum aliquet nec vitae 
+							laoreet eget cubilia quam non etiam odio tincidunt montes. Elementum sem 
+							parturient nulla quam placerat viverra mauris non cum elit tempus ullamcorper 
+							dolor. Libero rutrum ut lacinia donec curae mus vel quisque sociis nec 
+							ornare iaculis.</p>
 
-    </div>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-    
-  </body>
+						</div>
+					</section>
+			
+				<!-- Contact -->
+					<section id="contact" class="four">
+						<div class="container">
+
+							<header>
+								<h2>Contact</h2>
+							</header>
+
+							<p>Elementum sem parturient nulla quam placerat viverra 
+							mauris non cum elit tempus ullamcorper dolor. Libero rutrum ut lacinia 
+							donec curae mus. Eleifend id porttitor ac ultricies lobortis sem nunc 
+							orci ridiculus faucibus a consectetur. Porttitor curae mauris urna mi dolor.</p>
+							
+							<form method="post" action="#">
+								<div class="row half">
+									<div class="6u"><input type="text" name="name" placeholder="Name" /></div>
+									<div class="6u"><input type="text" name="email" placeholder="Email" /></div>
+								</div>
+								<div class="row half">
+									<div class="12u">
+										<textarea name="message" placeholder="Message"></textarea>
+									</div>
+								</div>
+								<div class="row">
+									<div class="12u">
+										<input type="submit" value="Send Message" />
+									</div>
+								</div>
+							</form>
+
+						</div>
+					</section>
+			
+			</div>
+
+		<!-- Footer -->
+			<div id="footer">
+				
+				<!-- Copyright -->
+					<ul class="copyright">
+						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				
+			</div>
+
+	</body>
 </html>
