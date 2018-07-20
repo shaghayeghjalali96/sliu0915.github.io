@@ -1,0 +1,392 @@
+@import basic
+
+.section-banners
+    padding: 8vh 8vw 0 8vw
+.section-banners-content
+    margin-top: 280px
+.project-outlines
+    border-bottom: 1px solid #f5f6f8
+    background-color: #ffffff
+    z-index: 300
+.banner-video-container 
+    position: absolute
+    height: 370px
+    left: 184px
+    bottom: 95px
+    index: 100
+.banner-video-container video
+    max-height: 100%
+    max-width: 100%
+.banner-video-container-desktop video 
+    max-height: 100%
+    // max-width: 100% 
+    
+.project-banner-image
+    position: absolute
+    height: 549px
+    bottom: 0
+    index: 50
+.project-banner-image-desktop
+    position: absolute
+    height: 550px
+    bottom: 60px
+    index: 50
+.project-video-container 
+    index: 100
+    padding: 24px
+.project-video-container video
+    max-height: 100%
+    max-width: 100%
+
+
+//MC Continuous Onboarding 
+#banner-cord
+    background-color: $light-green
+// #cord-old
+//     background-image: url(/images/MC-onboarding/dashboard_old.jpg)
+//     background-position: center
+//     width: 100%
+//     background-size: contain 
+//     background-repeat: no-repeat 
+//     height: 542px 
+
+// MC Resend to Non-Openers
+#banner-resend
+    background-color: $light-orange
+
+// Uber Trip Sharing 2.0
+#banner-uber
+    background-color: $light-purple
+
+.banner-introductions
+    margin-bottom: 28vh  
+
+.deliverable-text
+    line-height: 24px
+    opacity: 1
+    font-size: 15px
+
+.deliverable-label
+    opacity: .7
+    margin-bottom: 8px
+    font-size: 15px
+
+.project-nav-container
+    padding: 32px
+.project-nav-text
+    margin-bottom: 0
+    opacity: 1
+.project-nav-right
+    text-align: right 
+    margin-left: auto
+
+#nav-project1
+    background-color: $light-green
+    transition: $transition
+    -webkit-transition: $transition
+#nav-project2
+    background-color: $light-orange
+    transition: $transition
+    -webkit-transition: $transition
+#nav-project3
+    background-color: $light-purple
+    transition: $transition
+    -webkit-transition: $transition
+#nav-project4
+    background-color: $light-blue
+    transition: $transition
+    -webkit-transition: $transition
+#nav-project1:hover
+    background-color: $green
+#nav-project2:hover
+    background-color: $orange
+#nav-project3:hover
+    background-color: $purple
+#nav-project4:hover
+    background-color: $blue
+
+#illustration-resend
+    position: absolute 
+    left: 0
+    z-index: -1
+    width: 30vw
+    top: 12vh
+
+progress 
+    position: fixed
+    left: -96px
+    top: 45vh
+    width: 280px
+    height: 1px
+    transform: rotate(90deg)
+    color: black
+    appearance: none
+    background-color: #CCCCCC
+    -webkit-appearance: none
+    -moz-appearance: none
+    border: none
+    z-index: 1000
+
+progress::-webkit-progress-bar 
+    background-color: transparent 
+progress::-webkit-progress-value 
+    background-color: #000000
+progress::-moz-progress-bar
+    background-color: #000000
+
+.bookmarks
+    position: fixed
+    left: 70px
+    top: 38vh
+    z-index: 1000 
+
+.bookmarks a 
+    font-size: 12px
+    letter-spacing: 1.2px
+    font-weight: 600
+    font-family: $montserrat
+    opacity: .4
+
+#bm-design
+    top: 200px
+
+ol 
+    list-style-type: none 
+ol p
+    padding-left: 40px
+    opacity: 1
+ol span 
+    position: absolute 
+    opacity: .7
+ol li 
+    position: relative 
+
+.section-image
+    margin: 8vh 0
+
+.section-image > .small-texts 
+    margin-bottom: 4vh
+
+.tweets
+    display: flex
+    padding: 48px
+    margin: 0 -20px 
+    align-items: flex-start 
+    position: relative
+    justify-content: center 
+    flex-wrap: nowrap 
+
+.tweets .tweet 
+    flex: 1 1 33.33%
+    margin: 0 10px
+    border: 1px solid rgba(0,0,0,.1)
+    border-radius: 6px
+    margin-bottom: 24px
+
+.tweet-header
+    display: flex
+    align-items: center
+    padding: 16px
+
+.tweet-body
+    padding: 16px
+    border-top: 1px solid #e3e7ef
+
+.tweet-body p
+    font-size: 16px
+    line-height: 1.70
+
+.tweet-body a 
+    color: $highlight-blue
+
+.tweet-body a:hover
+    text-decoration: underline
+    color: $highlight-blue
+
+.tweet-text
+    padding: 0 14px 
+    flex: 1 
+
+.tweet-photo
+    width: 40px
+    height: 40px
+    margin: 0
+    border-radius: 6px
+
+.tweet-logo 
+    width: 23px
+
+.collection-video-container
+    width: 100%
+    display: flex
+    justify-content: center
+    align-items: center 
+    padding: 24px
+    background-color: #f8f8f9
+    height: 600px
+    margin: 24px 0
+
+.collection-video-container video
+    width: 40%
+
+#prototypes
+    margin-top: 80px
+
+.prototype_desc 
+    display: flex
+    justify-content: space-between
+    align-items: flex-start 
+
+.prototype_name
+    font-size: 15px
+    line-height: 18px
+    margin-bottom: 0px
+    font-weight: 600
+
+.prototype-link 
+    font-size: 13px
+    font-weight: 600
+
+#prototype .col-lg-6
+    padding: 0 30px
+
+.nav-to-top 
+    position: fixed 
+    bottom: 40px
+    right: 40px 
+    display: none 
+
+.section-articles
+    padding: 4vh 8vw
+
+.section-video
+    background-color: $light-grey
+    padding: 8vh 0
+
+// .section-video video
+//     padding: 8vh 0
+
+.last-section
+    margin-bottom: 4vh 
+
+.section-articles a
+    color: $highlight-blue
+    opacity: 1
+
+
+// Media queries
+//// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) 
+    .banner-introductions
+        margin-bottom: 0 
+    .project-banner-image
+        display: none 
+    .project-banner-image-desktop
+        display: none 
+    .banner-video-container
+        position: initial 
+        text-align: center 
+        margin: 8vh 0 
+    .banner-video-container-desktop
+        position: initial 
+        text-align: center 
+        margin: 8vh 0  
+    .banner-video-container video 
+        box-shadow: 0 7px 72px 0 rgba(0, 0, 0, 0.18)
+        -webkit-box-shadow: 0 7px 72px 0 rgba(0, 0, 0, 0.18)
+        -moz-box-shadow: 0 7px 72px 0 rgba(0, 0, 0, 0.18)
+    .banner-video-container-desktop video 
+        box-shadow: 0 7px 72px 0 rgba(0, 0, 0, 0.18)
+        -webkit-box-shadow: 0 7px 72px 0 rgba(0, 0, 0, 0.18)
+        -moz-box-shadow: 0 7px 72px 0 rgba(0, 0, 0, 0.18) 
+        max-width: 100%
+    .section-banners-content
+        margin-top: 12vh
+    .tweets
+        flex-wrap: wrap 
+    .collection-video-container video
+        width: 80%
+
+        
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) 
+    .banner-introductions
+        margin-bottom: 0 
+    .project-banner-image
+        display: none 
+    .banner-video-container
+        position: initial 
+        text-align: center 
+        margin: 8vh 0 
+    .banner-video-container video 
+        box-shadow: 0 7px 72px 0 rgba(0, 0, 0, 0.18)
+        -webkit-box-shadow: 0 7px 72px 0 rgba(0, 0, 0, 0.18)
+        -moz-box-shadow: 0 7px 72px 0 rgba(0, 0, 0, 0.18)
+    .project-banner-image-desktop
+        display: none 
+    .banner-video-container-desktop
+        position: initial 
+        text-align: center 
+        margin: 8vh 0 
+        width: 100%
+    .banner-video-container-desktop video 
+        box-shadow: 0 7px 72px 0 rgba(0, 0, 0, 0.18)
+        -webkit-box-shadow: 0 7px 72px 0 rgba(0, 0, 0, 0.18)
+        -moz-box-shadow: 0 7px 72px 0 rgba(0, 0, 0, 0.18)
+        max-width: 100%
+    .section-banners-content
+        margin-top: 12vh
+    .tweets
+        flex-wrap: wrap 
+
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) 
+    .banner-introductions
+        margin-bottom: 0 
+    .project-banner-image
+        display: none 
+    .banner-video-container
+        position: initial 
+        text-align: center 
+        margin: 8vh 0 
+    .banner-video-container video 
+        box-shadow: 0 7px 72px 0 rgba(0, 0, 0, 0.18)
+        -webkit-box-shadow: 0 7px 72px 0 rgba(0, 0, 0, 0.18)
+        -moz-box-shadow: 0 7px 72px 0 rgba(0, 0, 0, 0.18)
+    .project-banner-image-desktop
+        display: none 
+    .banner-video-container-desktop
+        position: initial 
+        text-align: center 
+        margin: 8vh 0 
+        width: 100%
+    .banner-video-container-desktop video 
+        box-shadow: 0 7px 72px 0 rgba(0, 0, 0, 0.18)
+        -webkit-box-shadow: 0 7px 72px 0 rgba(0, 0, 0, 0.18)
+        -moz-box-shadow: 0 7px 72px 0 rgba(0, 0, 0, 0.18)
+        max-width: 100%
+    .section-banners-content
+        margin-top: 12vh
+    .tweets
+        flex-wrap: wrap 
+        
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) 
+    .banner-video-container-desktop
+        position: absolute 
+        height: 443px
+        width: 100%
+        left: 130px
+        bottom: 130px
+        index: 100
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) 
+    .banner-video-container-desktop
+        position: absolute 
+        height: 443px
+        width: 100%
+        left: 130px
+        bottom: 130px
+        index: 100
