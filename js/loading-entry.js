@@ -57,3 +57,11 @@ function loadComplete() {
  
     return preloaderOutTl;
 }
+
+var element = $(".full-screen.section-projects")
+var rect = element[0].getBoundingClientRect();
+
+$(".arrow-container.center-aligned").click(function() {
+        $("html, body").animate({ scrollTop: rect.y }, "slow");
+});
+
