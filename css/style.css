@@ -1641,16 +1641,20 @@ a:hover {
   padding-top: 8vh;
   height: 100vh; }
 
+  
 #section-one {
-  background-color: rgba(230, 239, 208, 0.4); }
+  background-color: rgba(213, 199, 255, 0.4); }
 
 #section-two {
-  background-color: rgba(246, 219, 187, 0.4); }
+  background-color: rgba(230, 239, 208, 0.4); }
 
 #section-three {
-  background-color: rgba(239, 222, 238, 0.4); }
+  background-color: rgba(246, 219, 187, 0.4); }
 
 #section-four {
+  background-color: rgba(239, 222, 238, 0.4); }  
+
+#section-five {
   background-color: rgba(186, 208, 246, 0.4); }
 
 .bg-number {
@@ -1662,17 +1666,22 @@ a:hover {
   top: 16px;
   z-index: -1; }
 
+  
 #bg-number-1 {
-  color: #e6efd0; }
+  color: rgba(186, 208, 246, 1); }
 
 #bg-number-2 {
-  color: #f6dbbb; }
+  color: #e6efd0; }
 
 #bg-number-3 {
-  color: #efdeee; }
+  color: #f6dbbb; }
 
 #bg-number-4 {
+  color: #efdeee; }
+
+#bg-number-5 {
   color: #bad0f6; }
+
 
 #welcome-small {
   visibility: hidden; }
